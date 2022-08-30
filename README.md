@@ -34,10 +34,9 @@
 
 ## Overview
 ### Screenshots
-Desktop Screenshot
+Desktop and Mobile Screenshots
 ![desktop screenshot](./screenshots/desktop.png)
 
-Mobile screenshots
 ![mobile screenshot](./screenshots/mobile-1.png)
 ![mobile screenshot](./screenshots/mobile-2.png)
 
