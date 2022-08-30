@@ -10,10 +10,6 @@
     margin: 0;
 }
 
-body {
-    min-height: 100vh;
-}
-
 header {
     font-family: "Inconsolata", sans-serif;
     font-size: 24px;
@@ -29,6 +25,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .img-container {
@@ -78,13 +75,38 @@ footer {
     line-height: 17px;
     font-size: 14px;
     color: #BDBDBD;
+    display: flex;
+    justify-content: center;
 }
 
 footer a {
     text-decoration: none;
     color: #BDBDBD;
+    margin: 0 auto;
 }
 
 .username-link {
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 376px) {
+    /* Desktop specific styling */
+
+    main {
+        flex-direction: row;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .img-container {
+        width: 50%;
+    }
+
+    .description {
+        width: 50%;
+    }
+
+    .description button {
+        margin-bottom: 0;
+    }
 }
